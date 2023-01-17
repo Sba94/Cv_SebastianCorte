@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+/*font-family: 'Crimson Text', serif;*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 254);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navBar {
+    list-style: none;
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+h1, h2, a{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
