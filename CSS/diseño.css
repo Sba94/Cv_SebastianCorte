@@ -1,32 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 /*font-family: 'Crimson Text', serif;*/
 
-* {
+*{
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
     margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 254);
+    font-family: 'Crimson Text', serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
-
-.navBar {
+ul{
     list-style: none;
 }
 
-.navBar li {
-    display: inline-block;
-    padding: 0px 10px;
+.container{
+    max-width: 1400px;
+    margin: auto;
 }
 
-h1, h2, a{
-    font-family: "Crimson Text", serif;
-    font-weight: 400;
+header{
+    background-color:beige;
+}
+
+header .logo{
+    margin: 0;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: rgb(13, 76, 41);
+    font-size: 1.5em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header a{
+    padding: 5px 10px;
     text-decoration: none;
+    color: rgb(15, 80, 50);
 }
 
+header a:hover{
+    color: black;
+}
+
+.leyenda{
+    color: rgb(15, 80, 50);
+}
+
+#info .container{
+    text-align: left;
+    padding: 50px 10px;
+    background-color: aquamarine;
+}
+
+#estudios .container{
+    text-align: left;
+    padding: 50px 10px;
+    background-color: bisque;
+}
+
+#conocimientos .container{
+    text-align: left;
+    padding: 50px 10px;
+    background-color: rgb(208, 81, 81);
+}
+
+#contacto .container{
+    text-align: left;
+    padding:50px 10px;
+    background-color: rgb(181, 143, 217);
+}
