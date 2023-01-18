@@ -10,6 +10,10 @@ html{
 }
 
 body{
+    background-image: url(Imagenes/codigo.jpg)
+}
+
+body{
     margin: 0;
     font-family: 'Crimson Text', serif;
 }
@@ -19,8 +23,9 @@ ul{
 }
 
 .container{
+    width: 90%;
     max-width: 1400px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 header{
@@ -28,8 +33,6 @@ header{
 }
 
 header .logo{
-    margin: 0;
-    padding: 20px 20px;
     font-weight: bold;
     color: rgb(13, 76, 41);
     font-size: 1.5em;
@@ -45,7 +48,7 @@ header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 header a{
@@ -207,5 +210,12 @@ footer .container {
 }
 
 @media (min-width: 1100px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
+    #info .container{
+    padding-top: 100px;
+    }
 }
