@@ -81,7 +81,67 @@ header a:hover{
 }
 
 #contacto .container{
+    display: flex;
     text-align: left;
+    flex-direction: column;
     padding:50px 10px;
     background-color: rgb(181, 143, 217);
+}
+
+footer {
+    background-color: darkslategray;
+}
+
+footer p{
+    margin: 0;
+    color: white;
+}
+
+footer .container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 720px){
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+
+    #info .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #info h2{
+        color: rgb(26, 28, 30);
+        font-size: 150%;
+        padding: 10px 10px;  
+    }
+
+    #info li{
+        color: rebeccapurple;
+        font-size: 100%;
+        width: 50%;
+        max-width: 500px;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+
+    
+    
 }
