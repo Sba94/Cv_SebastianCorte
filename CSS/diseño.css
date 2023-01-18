@@ -128,7 +128,7 @@ footer .container {
     }
 
     #info h2{
-        color: rgb(26, 28, 30);
+        color: rgb(125, 81, 22);
         font-size: 150%;
         padding: 10px 10px;  
     }
@@ -142,6 +142,70 @@ footer .container {
         padding: 10px 10px;
     }
 
+    #estudios .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #estudios h2{
+        color: rgb(50, 134, 75);
+        font-size: 150%;
+        padding: 10px 10px;
+    }
     
+    #estudios li{
+        color: rebeccapurple;
+        font-size: 100%;
+        width: 50%;
+        max-width: 500px;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+
+    #conocimientos .container{
+        display: flex;
+    }
+
+    #conocimientos h2{
+        color: rgb(58, 50, 134);
+        font-size: 150%;
+        padding: 10px 10px;
+    }
+
+    #conocimientos li{
+        color: rgb(6, 31, 249);
+        font-size: 100%;
+        width: 50%;
+        max-width: 500px;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+
+    #contacto .container{
+        display: flex;
+    }
+
+    #contacto h2{
+        color: rgb(58, 50, 134);
+        font-size: 150%;
+        padding: 10px 10px;
+    }
+
+    #contacto li{
+        color: rgb(6, 31, 249);
+        font-size: 100%;
+        width: 50%;
+        max-width: 500px;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
     
+}
+
+@media (min-width: 1100px){
+
 }
