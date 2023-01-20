@@ -61,12 +61,22 @@ h2{
     color: red;
 }
 
-.html-logo, .css-logo, .js-logo, .uipath-logo{
-    height: 50px;
+#conocimientos{
+    background-color: aquamarine;
+    text-align: center;
 }
 
-.pa-logo{
-    height: 80px;
+#conocimientos .contenedor-tarjetas{
+    padding: 50px 10px;
+
+}
+
+#conocimientos h2{
+    margin-top: 0;
+}
+
+#conocimientos p{
+    display: none;
 }
 
 @media (max-width: 700px){
