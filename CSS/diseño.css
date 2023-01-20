@@ -91,6 +91,12 @@ h2{
     display: flex;
 }
 
+.tarjeta{
+    border-style: dashed;
+    padding: 10px;
+    margin: 10px;
+}
+
 .logo-html, .logo-css, .logo-js, .logo-uipath, .logo-pa{
     height: 80px;
 }
