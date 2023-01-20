@@ -39,7 +39,7 @@ nav a:hover{
     color: rgb(49, 124, 189);
 }
 
-.info-container{
+.info-container, .contenedor-tarjetas{
     background-color:aqua;
     height: 30vh;
     margin: 10%;
@@ -62,7 +62,6 @@ h2{
 }
 
 #conocimientos{
-    background-color: aquamarine;
     text-align: center;
 }
 
@@ -88,7 +87,11 @@ h2{
     border-radius: 20px;
 }
 
-.logo-html, .logo-css, .logo-js, .logo-uipath{
+.programas{
+    display: flex;
+}
+
+.logo-html, .logo-css, .logo-js, .logo-uipath, .logo-pa{
     height: 80px;
 }
 
