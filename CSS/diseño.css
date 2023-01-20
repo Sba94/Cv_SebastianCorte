@@ -48,6 +48,10 @@ nav a:hover{
     align-items: center;
 }
 
+h2{
+    color: red;
+}
+
 .foto{
     height: 200px;
     margin: 20px;
