@@ -79,6 +79,35 @@ h2{
     display: none;
 }
 
+#conocimietos .tarjeta{
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.tarjeta:first-child{
+    background-image: url("CSS/Imagenes/html.jpg");
+}
+
+.tarjeta:nth-child(2){
+   
+}
+
+.tarjeta:nth-child(3){
+    
+}
+
+.tarjeta:nth-child(4){
+    
+}
+
+.tarjeta:nth-child(5){
+    
+}
+
+
 @media (max-width: 700px){
     header{
         flex-direction: column;
