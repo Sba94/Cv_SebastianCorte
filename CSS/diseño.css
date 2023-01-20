@@ -1,212 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 /*font-family: 'Crimson Text', serif;*/
 
-*{
-    padding: 0;
-    margin: 0;
-}
-html{
-    scroll-behavior: smooth;
-}
-
 body{
     font-family: 'Crimson Text', serif;
-    background-image: url(Imagenes/codigo.jpg)
+    margin: 0;
 }
 
-ul{
-    list-style: none;
-}
-
-.container{
-    width: 80%;
-    max-width: 1400px;
-    margin: 10px auto;
-    border-style: double;
-}
-
-header{
-    background-color:beige;
-}
-
-header .logo{
-    font-weight: bold;
-    color: rgb(13, 76, 41);
-    font-size: 1.5em;
-}
-
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-header a{
-    padding: 5px 10px;
+a{
     text-decoration: none;
-    color: rgb(15, 80, 50);
-}
-
-header a:hover{
     color: black;
 }
 
-.leyenda{
-    font-weight: bold;
-}
-
-#info .container{
-    text-align: left;
-    padding: 50px 10px;
-    background-color: aquamarine;
-}
-
-#estudios .container{
-    text-align: left;
-    padding: 50px 10px;
-    background-color: bisque;
-}
-
-#conocimientos .container{
-    text-align: left;
-    padding: 50px 10px;
-    background-color: rgb(208, 81, 81);
-}
-
-#contacto .container{
+header{
     display: flex;
-    text-align: left;
-    flex-direction: column;
-    padding:50px 10px;
-    background-color: rgb(181, 143, 217);
+    min-height: 70px;
+    background-color: darkkhaki;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-footer {
-    background-color: darkslategray;
+.logo{
+    display: flex;
+    align-items: center;
 }
 
-footer p{
-    color: white;
+.logo-img{
+    height: 50px;
+    margin-right: 15px;
 }
 
-footer .container {
-    height: 100px;
+nav a{
+    font-weight: 700;
+    padding-right: 15px;
+}
+
+nav a:hover{
+    color: rgb(49, 124, 189);
+}
+
+.info-container{
+    background-color:aqua;
+    height: 30vh;
+    margin: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media (min-width: 720px){
-
-    header {
-        position: fixed;
-        width: 100%;
-    }
-
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 10px;
-    }
-
-    #info .container{
-        display: flex;
-        justify-content: center;
-    }
-
-    #info h2{
-        color: rgb(125, 81, 22);
-        font-size: 150%;
-        padding: 10px 10px;  
-    }
-
-    #info li{
-        color: rebeccapurple;
-        font-size: 100%;
-        width: 50%;
-        max-width: 500px;
-        display: inline-block;
-        padding: 10px 10px;
-    }
-
-    #estudios .container{
-        display: flex;
-        justify-content: center;
-    }
-
-    #estudios h2{
-        color: rgb(50, 134, 75);
-        font-size: 150%;
-        padding: 10px 10px;
-    }
-    
-    #estudios li{
-        color: rebeccapurple;
-        font-size: 100%;
-        width: 50%;
-        max-width: 500px;
-        display: inline-block;
-        padding: 10px 10px;
-    }
-
-    #conocimientos .container{
-        display: flex;
-    }
-
-    #conocimientos h2{
-        color: rgb(58, 50, 134);
-        font-size: 150%;
-        padding: 10px 10px;
-    }
-
-    #conocimientos li{
-        color: rgb(6, 31, 249);
-        font-size: 100%;
-        width: 50%;
-        max-width: 500px;
-        display: inline-block;
-        padding: 10px 10px;
-    }
-
-    #contacto .container{
-        display: flex;
-    }
-
-    #contacto h2{
-        color: rgb(58, 50, 134);
-        font-size: 150%;
-        padding: 10px 10px;
-    }
-
-    #contacto li{
-        color: rgb(6, 31, 249);
-        font-size: 100%;
-        width: 50%;
-        max-width: 500px;
-        display: inline-block;
-        padding: 10px 10px;
-    }
-    
+.html-logo, .css-logo, .js-logo, .uipath-logo{
+    height: 50px;
 }
 
-@media (min-width: 1100px){
-    *{
-        margin: 0;
-        padding: 0;
+.pa-logo{
+    height: 80px;
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
     }
 
-    #info .container{
-    padding-top: 100px;
+    nav{
+        padding: 15px 0px;
     }
 }
